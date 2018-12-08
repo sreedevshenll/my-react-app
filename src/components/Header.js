@@ -5,10 +5,10 @@ class Header extends Component {
   render() {
     return (
       <header className="app-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            <img src={HeaderIcon} width="30" height="30" className="d-inline-block align-top" alt="" />
-            MyShop
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">  
+          <img src={HeaderIcon} width="30" height="30" alt="" />  
+           <a class="navbar-brand" href="#">
+              MyShop
           </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -18,17 +18,17 @@ class Header extends Component {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item dropdown active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Gadgets
+                <i class="fa fa-car" aria-hidden="true"></i> Vehicles
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">Phone</a>
-                  <a className="dropdown-item" href="#">Tablets</a>
-                  <a className="dropdown-item" href="#">Drones</a>
+                  <a className="dropdown-item" href="#">Car</a>
+                  <a className="dropdown-item" href="#">Bus</a>
+                  <a className="dropdown-item" href="#">Bike</a>
                 </div>
               </li>
               <li className="nav-item dropdown active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Homes
+                <i class="fa fa-home" aria-hidden="true"></i> Homes
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a className="dropdown-item" href="#">Dinning</a>
@@ -38,7 +38,7 @@ class Header extends Component {
               </li>
               <li className="nav-item dropdown active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Computers
+                <i class="fa fa-television" aria-hidden="true"></i> Computers
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a className="dropdown-item" href="#">Laptops</a>
@@ -49,48 +49,29 @@ class Header extends Component {
             </ul>
             <ul className="navbar-nav">
               <li className="nav-item">
-                <button type="button" className="btn btn-light">
+                <a class="nav-link" href="#">
                   <i class="fa fa-search text-info" aria-hidden="true"></i>
-                </button>
+                </a>
               </li>
               <li className="nav-item">
-                <button type="button" className="btn btn-light">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-bell text-success" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a class="nav-link" href="#">
                   <i class="fa fa-heart text-danger" aria-hidden="true"></i>
-                </button>
+                </a>
               </li>
               <li className="nav-item">
-                <div class="dropleft">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <form class="px-4 py-3">
-                      <div class="form-group">
-                        <label for="exampleDropdownFormEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" />
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleDropdownFormPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" />
-                      </div>
-                      <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="dropdownCheck"/>
-                        <label class="form-check-label" for="dropdownCheck">
-                          Remember me
-                        </label>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Sign in</button>
-                    </form>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">New around here? Sign up</a>
-                    <a class="dropdown-item" href="#">Forgot password?</a>
-                  </div>
-                </div>
+                <a class="nav-link" href="#">
+                  <i class="fa fa-shopping-cart text-warning" aria-hidden="true"></i>
+                </a>
               </li>
               <li className="nav-item">
-                <button type="button" className="btn btn-info">
-                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                </button>
+                <a class="nav-link text-link" href="#">
+                  <i class="fa fa-user" aria-hidden="true"></i> Login
+                </a>
               </li>
             </ul>
           </div>
