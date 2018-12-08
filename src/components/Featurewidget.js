@@ -19,23 +19,33 @@ class Featurewidget extends Component {
 						<div className="widget row">
 						<div className="feature-icons icons-gamepad"> <i className="fa fa-gamepad" aria-hidden="true"></i> 
 						</div>
-					 	<div className="feature-text">	Gadgets </div>	
-					</div>
-					</div>
-					<div className="col-3">
-						<div className="widget row">
-						<div className="feature-icons icons-cutlery"> <i class="fa fa-cutlery" aria-hidden="true"></i> </div>
-					 	<div className="feature-text">	Kitchenwares </div>
-					</div>
+					 	<div className="feature-text">	
+						 	Gadgets 
+						</div>	
+					 </div>
 					</div>
 					<div className="col-3">
 						<div className="widget row">
-						<div className="feature-icons icons-music"> <i className="fa fa-music" aria-hidden="true"></i> </div>
-					 	<div className="feature-text">	Feel d'beat </div>
+							<div className="feature-icons icons-cutlery"> 
+								<i class="fa fa-cutlery" aria-hidden="true"></i> 
+							</div>
+					 		<div className="feature-text">	
+						 		Kitchenwares 
+							</div>
+						</div>
 					</div>
-				</div>
+					<div className="col-3">
+						<div className="widget row">
+							<div className="feature-icons icons-music"> 
+								<i className="fa fa-music" aria-hidden="true"></i> 
+							</div>
+					 		<div className="feature-text">	
+						 		Feel d'beat 
+							</div>
+						</div>
+					</div>
 			</div>
-			</div>
+		</div>
 		)
 	}
 }
