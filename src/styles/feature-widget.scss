@@ -1,23 +1,23 @@
+.widget {
+  background-color: #e0ebeb;
+  width:70%;
+  border-radius:10px;
+  padding:10px;
 
-    .widget {
-        background-color: #e0ebeb;
-        width:70%;
-        border-radius:10px;
-        padding:10px;
-        .icons-tropy {
-            color: #003366;
-        }
-        .icons-gamepad {
-            color: #009900;
-        }
-        .icons-cutlery {
-            color: #cc0000;
-        }
-        .icons-music {
-            color: #ff9900;
-        }
-        .feature-text {
-            vertical-align:middle;
-            display:inline;
-      }
-    }
+  .icons-tropy {
+    color: #003366;
+  }
+  .icons-gamepad {
+    color: #009900;
+  }
+  .icons-cutlery {
+    color: #cc0000;
+  }
+  .icons-music {
+    color: #ff9900;
+  }
+  .feature-text {
+    vertical-align:middle;
+    display:inline;
+  }
+}
