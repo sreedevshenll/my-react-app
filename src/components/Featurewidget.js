@@ -8,7 +8,7 @@ class Featurewidget extends Component {
 					<div className="col-3">
 						<div className="widget row">
 							<div className="feature-icons icons-trophy">
-								<i className="fa fa-trophy" aria-hidden="true"></i>
+								<i className="fa fa-trophy fa-2x" aria-hidden="true"></i>
 							</div>
 							<div className="feature-text">
 								SmartDeals
@@ -17,7 +17,7 @@ class Featurewidget extends Component {
 					</div>
 					<div className="col-3">
 						<div className="widget row">
-							<div className="feature-icons icons-gamepad"> <i className="fa fa-gamepad" aria-hidden="true"></i>
+							<div className="feature-icons icons-gamepad"> <i className="fa fa-gamepad fa-2x" aria-hidden="true"></i>
 							</div>
 							<div className="feature-text">
 								Gadgets
@@ -27,7 +27,7 @@ class Featurewidget extends Component {
 					<div className="col-3">
 						<div className="widget row">
 							<div className="feature-icons icons-cutlery">
-								<i class="fa fa-cutlery" aria-hidden="true"></i>
+								<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
 							</div>
 							<div className="feature-text">
 								Kitchenwares
@@ -37,7 +37,7 @@ class Featurewidget extends Component {
 					<div className="col-3">
 						<div className="widget row">
 							<div className="feature-icons icons-music">
-								<i className="fa fa-music" aria-hidden="true"></i>
+								<i className="fa fa-music fa-2x" aria-hidden="true"></i>
 							</div>
 							<div className="feature-text">
 								Feel d'beat
