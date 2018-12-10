@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Featurewidget from './components/Featurewidget';
 import Imagegallery from './components/Imagegallery';
 import Products from './components/Products';
+import Routing from './components/Routing';
 class App extends Component {
   render() {
     return (
@@ -13,6 +14,7 @@ class App extends Component {
         <Banner/>
         <Featurewidget/>
         <Products/>
+        <Routing/>
       </div>
     );
   }
